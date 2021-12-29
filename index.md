@@ -4,6 +4,14 @@ You can use the [editor on GitHub](https://github.com/RadishBeefSoup/radishbeefs
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+Blog for studying control 
+
+1.开环控制、闭环控制
+2.设计控制器（有反馈，无反馈）
+3.拉普拉斯变换，积分变乘法处理卷积
+4. 稳定性分析（稳定值存在）
+5. 终值定理（稳定值位置）
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
