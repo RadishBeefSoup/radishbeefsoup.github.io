@@ -12,6 +12,8 @@ Blog for studying control
 4. 稳定性分析（稳定值存在）
 5. 终值定理（稳定值位置）
 
+# convex optimization
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
