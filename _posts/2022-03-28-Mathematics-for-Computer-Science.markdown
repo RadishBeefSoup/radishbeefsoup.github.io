@@ -1,38 +1,32 @@
 ---
 layout: post
-title:  "Convex Optimization Learning!"
-date:   2022-03-26 21:30:00 +0000
+title:  "Mathematics for Computer Science!"
+date:   2022-03-28 12:38:00 +0000
 categories: jekyll update
 ---
 
-# Course 1：Introduction
+### Course 1：Introduction and Proofs
 
-1. Least square 
-2. Linear Programing
-3. Convex Optimization
 
-## Course goal and topics
-### Goals:
-1. recognize problems as convex optimization problems
-2. develop code for problems
-3. characterize optimal solution, give limits of performance
+A 'proof' is a method to ascertaining the truth.
+A mathematical proof is a verification of a proposition by a chain of logical deductions from a set of axioms.
 
-### Topics 
-1. convex sets, functions, optimization problems
-2. examples and applications
-3. algorithms
+Def: An implication p=>q is true if p is false or q is ture.(Truth Table)
 
-## Nonlinear optimization
-traditional techniques for general nonconvex problems involve compromises 
+Def: A 'proposition' is  a statement that is either true or false.
+E.g.: 2+3=5 
 
-### local optimization methods
-find a point that minimize $f_{0}$ among feasible points near it
-fast, can handle large problems
-require initial guess
-provide no information about distance to (global) optimum
+Def: An 'Axiom' is  a proposition that is 'assumed' to be true.
+E.g.: a=b, b=c, then a=c
 
-### global optimization methods
-find the (global) solution
-worst-case algorithms are often based on solving convex subproblems
+You have to make assumptions in math, because you start with axioms.
+The idea is that when you do a proof, anybody who agrees with your assumptions can follow your proof and they have to agree with your conclusion.
 
-these algorithms are oftern based on solving convex subproblems
+Axioms should be
+1. consistent
+2. complete
+Def: A set of axioms is consistent if no proposition can be proved both true and false.
+Def: A set of axioms is complete if it can be used to prove evet proposition is either true or false.
+
+Krut不完备定理, 
+if you want consistency, there will be facts that you will never be able to prove.
