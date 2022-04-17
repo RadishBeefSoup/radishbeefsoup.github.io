@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Convex Optimization Learning!"
+title:  "Basic statistic knowledge"
 date:   2022-04-17 15:00:00 +0000
 categories: jekyll update
 ---
