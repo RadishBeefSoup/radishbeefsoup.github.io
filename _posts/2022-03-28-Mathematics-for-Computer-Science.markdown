@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mathematics for Computer Science!"
-date:   2022-03-28 12:38:00 +0000
+date:   2022-03-28 11:38:00 +0000
 categories: jekyll update
 ---
 
