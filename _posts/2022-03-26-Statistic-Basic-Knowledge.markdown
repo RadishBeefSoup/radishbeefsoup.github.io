@@ -25,3 +25,10 @@ https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-ca
 
 
  If a randomly generated parameter value is better than the last one, it is added to the chain of parameter values with a certain probability determined by how much better it is (this is the Markov chain part).
+
+
+
+
+Gibbs sampling (One example of MCMC)
+
+For multi-variable distribution, e.g. 5 variables, Choose a random point in this 5-dimensional space. Given 2nd to 5th variables fixed, sample the 1st variable according to the simple conditional distribution. Then keep the 1st, 3rd to 5th variables fixed, sample the 2nd variable according to its simple conditional distribution. Every 5 steps, we get a new sample point. With this method, the sample points belong to the 5-dimentional multi-variable distribution.
