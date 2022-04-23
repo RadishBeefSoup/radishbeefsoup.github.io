@@ -16,3 +16,8 @@ Comparing the difference between all the nodes and the accepted blue ones. For t
 
 cons: very inefficient, espicially when the dimension of distribution is high, large amounts of sampled points are wasted and abandoned.
 
+
+
+Markov Chain Monte Carlo 
+
+Monte Carlo method 是一种普遍的方法，应用在概率分布中，就成了rejection sampling（在考虑前后采样的random points彼此无关的情况下）
