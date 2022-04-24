@@ -56,3 +56,5 @@ The exsitence of accept-reject rate is due to the difficulty of finding out the 
 https://zhuanlan.zhihu.com/p/253784711
 
 From the above perspective, reinforcement learning is trying to adjust the ***P*** by considering the policy and state transition function together as the ***P***  and adjust the policy part to adjust the whole ***P***, which lead to such a stationary distribution ***Π*** which provides maximum reward ***r(Π)***. It is also a kind of complicated markov chain monte carlo. The discovery of stationary distribution ***Π*** is also the arrival of fix-point.
+
+和压缩映射的关系？
