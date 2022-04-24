@@ -18,7 +18,7 @@ cons: very inefficient, espicially when the dimension of distribution is high, l
 
 
 
-Markov Chain Monte Carlo 
+## Markov Chain Monte Carlo 
 
 Monte Carlo method 是一种普遍的方法，应用在概率分布中，就成了rejection sampling（在考虑前后采样的random points彼此无关的情况下）
 https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50
@@ -29,12 +29,12 @@ https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-ca
 
 
 
-Gibbs sampling (One example of MCMC)
+### Gibbs sampling (One example of MCMC)
 
 For multi-variable distribution, e.g. 5 variables, Choose a random point in this 5-dimensional space. Given 2nd to 5th variables fixed, sample the 1st variable according to the simple conditional distribution. Then keep the 1st, 3rd to 5th variables fixed, sample the 2nd variable according to its simple conditional distribution. Every 5 steps, we get a new sample point. With this method, the sample points belong to the 5-dimentional multi-variable distribution.
 The philosophy and intuition behind is that the conditional distribution is much easier to sample from. The joint distribution is not.
 
 
-Metropolis hastings (One example of MCMC)
+### Metropolis hastings (One example of MCMC)
 
 random choose a sample point, Sample a new sample point according to arbitary possible distribution ***f*** we could sample from. We adjust the acceptance probabilty according to balance stationary condition. Finally, the samples we have follow the target distribution ***p*** we want to sample from. Does the ***f*** and ***p*** only have to the difference of a constant?
