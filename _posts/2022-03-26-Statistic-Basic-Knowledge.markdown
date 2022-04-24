@@ -33,3 +33,7 @@ Gibbs sampling (One example of MCMC)
 
 For multi-variable distribution, e.g. 5 variables, Choose a random point in this 5-dimensional space. Given 2nd to 5th variables fixed, sample the 1st variable according to the simple conditional distribution. Then keep the 1st, 3rd to 5th variables fixed, sample the 2nd variable according to its simple conditional distribution. Every 5 steps, we get a new sample point. With this method, the sample points belong to the 5-dimentional multi-variable distribution.
 The philosophy and intuition behind is that the conditional distribution is much easier to sample from. The joint distribution is not.
+
+
+Metropolis hastings (One example of MCMC)
+random choose a sample point, Sample a new sample point according to arbitary possible distribution $f$ we could sample from. We adjust the acceptance probabilty according to balance stationary condition. Finally, the samples we have follow the target distribution $p$ we want to sample from.
