@@ -48,3 +48,9 @@ random choose a sample point, Sample a new sample point according to arbitary po
 Gibbs Sampling
 
 This method requires all the conditional distributions of the target distribution to be sampled exactly.
+
+A detailed description of MCMC as supplementary, which provides the explaination of the exsitence of constant ***N*** in ***p(x)=f(x)/N***, the ***N*** is userd to increase the accept rate as much as possible for better sampling efficiency to avoid rejection of samples as possible.
+
+The exsitence of accept-reject rate is due to the difficulty of finding out the probability transition matrix ***P*** for our deserved stationary distribution ***Π***. The choice of ***P*** determines the final stationary distribution ***Π*** according to  ***PΠ=Π***. This is  another expression of the fixed-point theorm.
+
+https://zhuanlan.zhihu.com/p/253784711
