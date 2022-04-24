@@ -45,4 +45,6 @@ The philosophy and intuition behind is that the conditional distribution is much
 
 random choose a sample point, Sample a new sample point according to arbitary possible distribution ***f*** we could sample from. We adjust the acceptance probabilty according to balance stationary condition. Finally, the samples we have follow the target distribution ***p*** we want to sample from. Does the ***f*** and ***p*** only have to the difference of a constant?
 
+Gibbs Sampling
 
+This method requires all the conditional distributions of the target distribution to be sampled exactly.
