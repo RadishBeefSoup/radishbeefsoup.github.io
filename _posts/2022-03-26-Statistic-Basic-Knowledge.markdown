@@ -22,7 +22,7 @@ cons: very inefficient, espicially when the dimension of distribution is high, l
 
 
 
-## Markov Chain Monte Carlo (Random samples are autocorrelated) ? what autocorrelated means?
+## Markov Chain Monte Carlo (Random samples are autocorrelated) ? what autocorrelated means? Correlations of samples introduces the need to use the Markov chain central limit theorem when estimating the error of mean values.?
 
 Monte Carlo method 是一种普遍的方法，应用在概率分布中，就成了rejection sampling（在考虑前后采样的random points彼此无关的情况下）
 https://towardsdatascience.com/a-zero-math-introduction-to-markov-chain-monte-carlo-methods-dcba889e0c50
