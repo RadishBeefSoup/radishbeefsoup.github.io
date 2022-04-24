@@ -5,7 +5,11 @@ date:   2022-04-17 15:00:00 +0000
 categories: jekyll update
 ---
 
-Rejection Sampling
+However, whereas the random samples of the integrand used in a conventional Monte Carlo integration are statistically independent (Reject-accept), those used in MCMC are autocorrelated. 
+
+## Traditional Monte Carlo
+
+### Rejection Sampling
 
 Motivation:
 For example, we can only simulate simple naive sampling like uniform distribution. Our computer has inbuilt function for it (even though this process is still pesudo random faked by a deterministic process).  How to get complicated sampling like exponential distribution? 
@@ -38,3 +42,5 @@ The philosophy and intuition behind is that the conditional distribution is much
 ### Metropolis hastings (One example of MCMC)
 
 random choose a sample point, Sample a new sample point according to arbitary possible distribution ***f*** we could sample from. We adjust the acceptance probabilty according to balance stationary condition. Finally, the samples we have follow the target distribution ***p*** we want to sample from. Does the ***f*** and ***p*** only have to the difference of a constant?
+
+
