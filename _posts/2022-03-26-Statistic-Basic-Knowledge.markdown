@@ -7,6 +7,8 @@ categories: jekyll update
 
 However, whereas the random samples of the integrand used in a conventional Monte Carlo integration are statistically independent (Reject-accept), those used in MCMC are autocorrelated. 
 
+Calculate the expectation of a probability distribution is just to calculate the integral of the probabilty density function. In other words, the application of integral in probability theory.
+
 ## Traditional Monte Carlo (Random samples are independent)
 
 ### Rejection Sampling
