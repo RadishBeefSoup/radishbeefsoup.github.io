@@ -58,3 +58,11 @@ https://zhuanlan.zhihu.com/p/253784711
 From the above perspective, reinforcement learning is trying to adjust the ***P*** by considering the policy and state transition function together as the ***P***  and adjust the policy part to adjust the whole ***P***, which lead to such a stationary distribution ***Π*** which provides maximum reward ***r(Π)***. It is also a kind of complicated markov chain monte carlo. The discovery of stationary distribution ***Π*** is also the arrival of fix-point.
 
 和压缩映射的关系？
+
+
+Bayesian Estimation
+
+1. Point estimation (e.g. maximum likelihood estimation, guess the parameter(regarded as one constant) directly)
+2. Interval estimation (e.g. Bayesian estimation, guess the parameter of the distribution of the parameter(regarded as one random varible, a distribution))
+https://www.youtube.com/watch?v=I4dkEALQv34&t=2s
+
