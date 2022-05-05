@@ -66,3 +66,6 @@ Bayesian Estimation
 2. Interval estimation (e.g. Bayesian estimation, guess the parameter of the distribution of the parameter(regarded as one random varible, a distribution))
 https://www.youtube.com/watch?v=I4dkEALQv34&t=2s
 
+
+The flaw of frequenist statistic:
+Dependence of the result of an experiment on the number of times the experiment is repeated.
