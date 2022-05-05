@@ -77,3 +77,10 @@ P-value: The likelihood the observed fact happen by accident.
 For example: Person A may choose to stop tossing a coin when the total count reaches 100 while B stops at 1000. For different sample sizes, we get different t-scores and different p-values. Similarly, intention to stop may change from fixed number of flips to total duration of flipping. In this case too, we are bound to get different p-values.
 
 
+
+
+
+3.2 Bayes Theorem
+Bayes Theorem comes into effect when multiple events form an exhaustive set with another event B. This could be understood with the help of the below diagram
+
+https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simple-english/#h2_8
