@@ -89,3 +89,6 @@ https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simpl
 Since prior and posterior are both beliefs about the distribution of fairness of coin, intuition tells us that both should have the same mathematical form. Keep this in mind. We will come back to it again.
 
 odels are the mathematical formulation of the observed events. Parameters are the factors in the models affecting the observed data. For example, in tossing a coin, fairness of coin may be defined as the parameter of coin denoted by θ. The outcome of the events may be denoted by D.
+
+
+The reason that we chose prior belief is to obtain a beta distribution. This is because when we multiply it with a likelihood function, posterior distribution yields a form similar to the prior distribution which is much easier to relate to and understand.
