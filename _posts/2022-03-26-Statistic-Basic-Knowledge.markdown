@@ -84,3 +84,8 @@ For example: Person A may choose to stop tossing a coin when the total count rea
 Bayes Theorem comes into effect when multiple events form an exhaustive set with another event B. This could be understood with the help of the below diagram
 
 https://www.analyticsvidhya.com/blog/2016/06/bayesian-statistics-beginners-simple-english/#h2_8
+
+
+Since prior and posterior are both beliefs about the distribution of fairness of coin, intuition tells us that both should have the same mathematical form. Keep this in mind. We will come back to it again.
+
+odels are the mathematical formulation of the observed events. Parameters are the factors in the models affecting the observed data. For example, in tossing a coin, fairness of coin may be defined as the parameter of coin denoted by θ. The outcome of the events may be denoted by D.
