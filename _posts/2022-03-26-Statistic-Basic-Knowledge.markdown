@@ -69,3 +69,7 @@ https://www.youtube.com/watch?v=I4dkEALQv34&t=2s
 
 The flaw of frequenist statistic:
 Dependence of the result of an experiment on the number of times the experiment is repeated.
+
+1. p-values measured against a sample (fixed size) statistic with some stopping intention changes with change in intention and sample size. i.e If two persons work on the same data and have different stopping intention, they may get two different  p- values for the same data, which is undesirable.
+
+For example: Person A may choose to stop tossing a coin when the total count reaches 100 while B stops at 1000. For different sample sizes, we get different t-scores and different p-values. Similarly, intention to stop may change from fixed number of flips to total duration of flipping. In this case too, we are bound to get different p-values.
