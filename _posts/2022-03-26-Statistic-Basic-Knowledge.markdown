@@ -92,3 +92,7 @@ odels are the mathematical formulation of the observed events. Parameters are th
 
 
 The reason that we chose prior belief is to obtain a beta distribution. This is because when we multiply it with a likelihood function, posterior distribution yields a form similar to the prior distribution which is much easier to relate to and understand.
+
+
+
+选择一个先验，先验的解析形式，也后续决定了每次迭代的后验的表达式，当然中间条件概率的解析形式，也决定了后验朝着哪个解析形式去
