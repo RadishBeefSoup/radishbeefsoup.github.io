@@ -96,3 +96,5 @@ The reason that we chose prior belief is to obtain a beta distribution. This is 
 
 
 选择一个先验，先验的解析形式，也后续决定了每次迭代的后验的表达式，当然中间条件概率的解析形式，也决定了后验朝着哪个解析形式去，到最后，条件概率更新，就是观察到这些数据，不再让先验和后验产生区别了，那我们的这个先验就已经包含了根据这个数据能得到的所有内容并尽量准确地描述了数据，才会这样
+
+likelihood function不是概率分布，未经归一化，加和不保证为1
