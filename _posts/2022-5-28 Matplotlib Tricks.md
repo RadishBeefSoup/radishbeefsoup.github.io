@@ -8,7 +8,11 @@ categories: jekyll update
 
 plot discrete error bars
 plt.error bar
+
 https://blog.csdn.net/VictoriaW/article/details/72896026
 
 plot continuous error lines with confidence interval 
+
 https://blog.csdn.net/a1920993165/article/details/122277716
+
+https://blog.csdn.net/weixin_39679367/article/details/114631706
